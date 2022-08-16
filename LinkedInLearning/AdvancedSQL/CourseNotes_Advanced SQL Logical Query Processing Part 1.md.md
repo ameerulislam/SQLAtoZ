@@ -124,3 +124,18 @@ ON AD.Name = A.Name AND AD.Species = A.Species;
 0:05:08            we can also remove the parenthesis if the order is correct
 it's called Chiastic Order 
 
+
+***********************************************
+Chapter: 2. Row Filters
+***********************************************
+
+
+-----------------------------------------------
+Video: Filtering source rows
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:08            The example of Where and Inner join has the same output but both has different flow according to the screen shots 
+
+0:03:36            Where as outer join gives different results according to the screen shots below 
+
