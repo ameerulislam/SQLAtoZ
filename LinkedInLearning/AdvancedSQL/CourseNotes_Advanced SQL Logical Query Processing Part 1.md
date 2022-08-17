@@ -139,3 +139,44 @@ Note Time:         Note Text:
 
 0:03:36            Where as outer join gives different results according to the screen shots below 
 
+
+-----------------------------------------------
+Video: Missing information and ternary logic
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:22            Null value is an indicator and not a value. 
+
+0:01:38            Null is an indicator of absence of a value 
+
+0:04:26            Applicable unknown = There is a value but I don't know
+Inapplicable unknown = This is never a value for this, it's not applicable. 
+
+
+***********************************************
+Chapter: 3. Grouping
+***********************************************
+
+
+-----------------------------------------------
+Video: Grouping
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:07:14            SELECT COUNT(*) as count , Species, MAX(Name) From Animals GROUP BY Species; -- here MAX(NAME) will return one name which has the highest order letter. 
+
+0:07:35            After the data set is grouped, we can only reference the grouping expressions since they are guaranteed to have the same value for all rows within a group. All other expressions must be enclosed in an aggregate function to guarantee the same. 
+
+
+***********************************************
+Chapter: 4. Ordering and Paging
+***********************************************
+
+
+-----------------------------------------------
+Video: Ordering result sets
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:24            once order has been applied to a set it ceases to be a set and it becomes cursor as we move to the realm of row by row operations, also known as the dark side of SQL. 
+
